@@ -12,7 +12,7 @@ namespace Send
             var logger = new LoggerConfiguration()
                 .MinimumLevel.Verbose()
                 .WriteTo.ColoredConsole()
-                .WriteTo.RollingFile(@"E:\C#\RabbitMQ\Send\Logs\Log-{Date}.txt")
+                .WriteTo.RollingFile(@"E:\C#\Приват\RabbitMQ\Send\Logs\Log-{Date}.txt")
                 .CreateLogger();
 
             logger.Debug("The Send.cs was started");

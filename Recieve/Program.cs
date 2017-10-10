@@ -9,7 +9,7 @@ namespace Recieve
     {
         static void Main(string[] args)
         {
-            var logger = new LoggerConfiguration().MinimumLevel.Verbose().WriteTo.RollingFile(@"E:\C#\Приват\RabbitMQ\Send\Logs").WriteTo.ColoredConsole().CreateLogger();
+            var logger = new LoggerConfiguration().MinimumLevel.Verbose().WriteTo.RollingFile(@"E:\C#\Приват\RabbitMQ\Send\Logs\Log-{Date}.txt").WriteTo.ColoredConsole().CreateLogger();
             var factory = new ConnectionFactory() { HostName = "localhost" };
             logger.Debug("Created new factory {factory}", factory.HostName);
             using (var connection = factory.CreateConnection())

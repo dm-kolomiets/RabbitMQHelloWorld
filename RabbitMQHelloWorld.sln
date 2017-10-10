@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "Send\Send.csproj", "{8BC1C4F7-4731-47BE-8AAD-52DE6BE4CD14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{8BC1C4F7-4731-47BE-8AAD-52DE6BE4CD14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recieve", "Recieve\Recieve.csproj", "{4CCB5180-902F-4567-94A1-6BB0DB5CF430}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recieve", "Recieve\Recieve.csproj", "{4CCB5180-902F-4567-94A1-6BB0DB5CF430}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
